@@ -1,0 +1,229 @@
+,alpha_id,simulate_data,is_stats,pnl,stats,is_tests,train,test
+0,lexjVEx8,"{'type': 'REGULAR', 'settings': {'instrumentType': 'EQUITY', 'region': 'USA', 'universe': 'TOP3000', 'delay': 0, 'decay': 0, 'neutralization': 'INDUSTRY', 'truncation': 0.08, 'pasteurization': 'ON', 'testPeriod': 'P1Y', 'unitHandling': 'VERIFY', 'nanHandling': 'ON', 'maxTrade': 'OFF', 'language': 'FASTEXPR', 'visualization': False}, 'regular': 'Rank(Ts_Rank(close, 10))'}","       pnl  bookSize  longCount  shortCount  turnover  returns  drawdown  \
+0 -4303100  20000000       1545        1565    0.7133  -0.0431     0.518   
+
+     margin  sharpe  fitness   startDate  \
+0 -0.000121   -0.56    -0.14  2013-01-20   
+
+                            investabilityConstrained  \
+0  {'pnl': -5513135, 'bookSize': 20000000, 'longC...   
+
+                                     riskNeutralized  alpha_id  
+0  {'pnl': -5471120, 'bookSize': 20000000, 'longC...  lexjVEx8  ",,,"                       name   result  limit   value  effective  multiplier  \
+0                LOW_SHARPE     FAIL   2.69 -0.5600        NaN         NaN   
+1               LOW_FITNESS     FAIL   1.50 -0.1400        NaN         NaN   
+2              LOW_TURNOVER     PASS   0.01  0.7133        NaN         NaN   
+3             HIGH_TURNOVER     FAIL   0.70  0.7133        NaN         NaN   
+4       CONCENTRATED_WEIGHT     PASS    NaN     NaN        NaN         NaN   
+5   LOW_SUB_UNIVERSE_SHARPE     FAIL  -0.24 -0.4800        NaN         NaN   
+6          SELF_CORRELATION  PENDING    NaN     NaN        NaN         NaN   
+7            DATA_DIVERSITY  PENDING    NaN     NaN        NaN         NaN   
+8          PROD_CORRELATION  PENDING    NaN     NaN        NaN         NaN   
+9             D0_SUBMISSION  PENDING    NaN     NaN        NaN         NaN   
+10       REGULAR_SUBMISSION  PENDING    NaN     NaN        NaN         NaN   
+11            LOW_2Y_SHARPE     FAIL   2.69 -0.3400        NaN         NaN   
+12          MATCHES_PYRAMID     PASS    NaN     NaN        1.0         1.6   
+13           MATCHES_THEMES  WARNING    NaN     NaN        NaN         NaN   
+
+                                      pyramids  \
+0                                          NaN   
+1                                          NaN   
+2                                          NaN   
+3                                          NaN   
+4                                          NaN   
+5                                          NaN   
+6                                          NaN   
+7                                          NaN   
+8                                          NaN   
+9                                          NaN   
+10                                         NaN   
+11                                         NaN   
+12  [{'name': 'USA/D0/PV', 'multiplier': 1.6}]   
+13                                         NaN   
+
+                                               themes  alpha_id  
+0                                                 NaN  lexjVEx8  
+1                                                 NaN  lexjVEx8  
+2                                                 NaN  lexjVEx8  
+3                                                 NaN  lexjVEx8  
+4                                                 NaN  lexjVEx8  
+5                                                 NaN  lexjVEx8  
+6                                                 NaN  lexjVEx8  
+7                                                 NaN  lexjVEx8  
+8                                                 NaN  lexjVEx8  
+9                                                 NaN  lexjVEx8  
+10                                                NaN  lexjVEx8  
+11                                                NaN  lexjVEx8  
+12                                                NaN  lexjVEx8  
+13  [{'id': 'V4583nD', 'multiplier': 2.0, 'name': ...  lexjVEx8  ","{'pnl': -3665802, 'bookSize': 20000000, 'longCount': 1545, 'shortCount': 1562, 'turnover': 0.7108, 'returns': -0.0408, 'drawdown': 0.518, 'margin': -0.000115, 'fitness': -0.14, 'sharpe': -0.57, 'startDate': '2013-01-20', 'investabilityConstrained': {'pnl': -4568274, 'bookSize': 20000000, 'longCount': 1522, 'shortCount': 1591, 'turnover': 0.471, 'returns': -0.0509, 'drawdown': 0.6014, 'margin': -0.000216, 'fitness': -0.21, 'sharpe': -0.65}, 'riskNeutralized': {'pnl': -4708033, 'bookSize': 20000000, 'longCount': 1545, 'shortCount': 1562, 'turnover': 0.7108, 'returns': -0.0524, 'drawdown': 0.5045, 'margin': -0.000148, 'fitness': -0.61, 'sharpe': -2.25}}","{'pnl': -598370, 'bookSize': 20000000, 'longCount': 1548, 'shortCount': 1594, 'turnover': 0.7354, 'returns': -0.0594, 'drawdown': 0.0918, 'margin': -0.000161, 'fitness': -0.15, 'sharpe': -0.54, 'startDate': '2022-01-20', 'investabilityConstrained': {'pnl': -930189, 'bookSize': 20000000, 'longCount': 1542, 'shortCount': 1609, 'turnover': 0.5049, 'returns': -0.0923, 'drawdown': 0.1178, 'margin': -0.000366, 'fitness': -0.32, 'sharpe': -0.75}, 'riskNeutralized': {'pnl': -751769, 'bookSize': 20000000, 'longCount': 1548, 'shortCount': 1594, 'turnover': 0.7354, 'returns': -0.0746, 'drawdown': 0.0821, 'margin': -0.000203, 'fitness': -0.83, 'sharpe': -2.6}}"
+1,LLe7pEOL,"{'type': 'REGULAR', 'settings': {'instrumentType': 'EQUITY', 'region': 'USA', 'universe': 'TOP3000', 'delay': 0, 'decay': 0, 'neutralization': 'INDUSTRY', 'truncation': 0.08, 'pasteurization': 'ON', 'testPeriod': 'P1Y', 'unitHandling': 'VERIFY', 'nanHandling': 'OFF', 'maxTrade': 'OFF', 'language': 'FASTEXPR', 'visualization': False}, 'regular': 'Rank(Ts_Rank(close, 10))'}","       pnl  bookSize  longCount  shortCount  turnover  returns  drawdown  \
+0 -4303100  20000000       1545        1565    0.7133  -0.0431     0.518   
+
+     margin  sharpe  fitness   startDate  \
+0 -0.000121   -0.56    -0.14  2013-01-20   
+
+                            investabilityConstrained  \
+0  {'pnl': -5513135, 'bookSize': 20000000, 'longC...   
+
+                                     riskNeutralized  alpha_id  
+0  {'pnl': -5471120, 'bookSize': 20000000, 'longC...  LLe7pEOL  ",,,"                       name   result  limit   value  effective  multiplier  \
+0                LOW_SHARPE     FAIL   2.69 -0.5600        NaN         NaN   
+1               LOW_FITNESS     FAIL   1.50 -0.1400        NaN         NaN   
+2              LOW_TURNOVER     PASS   0.01  0.7133        NaN         NaN   
+3             HIGH_TURNOVER     FAIL   0.70  0.7133        NaN         NaN   
+4       CONCENTRATED_WEIGHT     PASS    NaN     NaN        NaN         NaN   
+5   LOW_SUB_UNIVERSE_SHARPE     FAIL  -0.24 -0.4800        NaN         NaN   
+6          SELF_CORRELATION  PENDING    NaN     NaN        NaN         NaN   
+7            DATA_DIVERSITY  PENDING    NaN     NaN        NaN         NaN   
+8          PROD_CORRELATION  PENDING    NaN     NaN        NaN         NaN   
+9             D0_SUBMISSION  PENDING    NaN     NaN        NaN         NaN   
+10       REGULAR_SUBMISSION  PENDING    NaN     NaN        NaN         NaN   
+11            LOW_2Y_SHARPE     FAIL   2.69 -0.3400        NaN         NaN   
+12          MATCHES_PYRAMID     PASS    NaN     NaN        1.0         1.6   
+13           MATCHES_THEMES  WARNING    NaN     NaN        NaN         NaN   
+
+                                      pyramids  \
+0                                          NaN   
+1                                          NaN   
+2                                          NaN   
+3                                          NaN   
+4                                          NaN   
+5                                          NaN   
+6                                          NaN   
+7                                          NaN   
+8                                          NaN   
+9                                          NaN   
+10                                         NaN   
+11                                         NaN   
+12  [{'name': 'USA/D0/PV', 'multiplier': 1.6}]   
+13                                         NaN   
+
+                                               themes  alpha_id  
+0                                                 NaN  LLe7pEOL  
+1                                                 NaN  LLe7pEOL  
+2                                                 NaN  LLe7pEOL  
+3                                                 NaN  LLe7pEOL  
+4                                                 NaN  LLe7pEOL  
+5                                                 NaN  LLe7pEOL  
+6                                                 NaN  LLe7pEOL  
+7                                                 NaN  LLe7pEOL  
+8                                                 NaN  LLe7pEOL  
+9                                                 NaN  LLe7pEOL  
+10                                                NaN  LLe7pEOL  
+11                                                NaN  LLe7pEOL  
+12                                                NaN  LLe7pEOL  
+13  [{'id': 'V4583nD', 'multiplier': 2.0, 'name': ...  LLe7pEOL  ","{'pnl': -3665802, 'bookSize': 20000000, 'longCount': 1545, 'shortCount': 1562, 'turnover': 0.7108, 'returns': -0.0408, 'drawdown': 0.518, 'margin': -0.000115, 'fitness': -0.14, 'sharpe': -0.57, 'startDate': '2013-01-20', 'investabilityConstrained': {'pnl': -4568274, 'bookSize': 20000000, 'longCount': 1522, 'shortCount': 1591, 'turnover': 0.471, 'returns': -0.0509, 'drawdown': 0.6014, 'margin': -0.000216, 'fitness': -0.21, 'sharpe': -0.65}, 'riskNeutralized': {'pnl': -4708033, 'bookSize': 20000000, 'longCount': 1545, 'shortCount': 1562, 'turnover': 0.7108, 'returns': -0.0524, 'drawdown': 0.5045, 'margin': -0.000148, 'fitness': -0.61, 'sharpe': -2.25}}","{'pnl': -598370, 'bookSize': 20000000, 'longCount': 1548, 'shortCount': 1594, 'turnover': 0.7354, 'returns': -0.0594, 'drawdown': 0.0918, 'margin': -0.000161, 'fitness': -0.15, 'sharpe': -0.54, 'startDate': '2022-01-20', 'investabilityConstrained': {'pnl': -930189, 'bookSize': 20000000, 'longCount': 1542, 'shortCount': 1609, 'turnover': 0.5049, 'returns': -0.0923, 'drawdown': 0.1178, 'margin': -0.000366, 'fitness': -0.32, 'sharpe': -0.75}, 'riskNeutralized': {'pnl': -751769, 'bookSize': 20000000, 'longCount': 1548, 'shortCount': 1594, 'turnover': 0.7354, 'returns': -0.0746, 'drawdown': 0.0821, 'margin': -0.000203, 'fitness': -0.83, 'sharpe': -2.6}}"
+2,akJ7d5mO,"{'type': 'REGULAR', 'settings': {'instrumentType': 'EQUITY', 'region': 'USA', 'universe': 'TOP3000', 'delay': 0, 'decay': 0, 'neutralization': 'INDUSTRY', 'truncation': 0.08, 'pasteurization': 'OFF', 'testPeriod': 'P1Y', 'unitHandling': 'VERIFY', 'nanHandling': 'ON', 'maxTrade': 'OFF', 'language': 'FASTEXPR', 'visualization': False}, 'regular': 'Rank(Ts_Rank(close, 10))'}","       pnl  bookSize  longCount  shortCount  turnover  returns  drawdown  \
+0 -4299912  20000000       1550        1561    0.7129  -0.0431    0.5181   
+
+     margin  sharpe  fitness   startDate  \
+0 -0.000121   -0.56    -0.14  2013-01-20   
+
+                            investabilityConstrained  \
+0  {'pnl': -5578474, 'bookSize': 20000000, 'longC...   
+
+                                     riskNeutralized  alpha_id  
+0  {'pnl': -5423101, 'bookSize': 20000000, 'longC...  akJ7d5mO  ",,,"                       name   result  limit   value  effective  multiplier  \
+0                LOW_SHARPE     FAIL   2.69 -0.5600        NaN         NaN   
+1               LOW_FITNESS     FAIL   1.50 -0.1400        NaN         NaN   
+2              LOW_TURNOVER     PASS   0.01  0.7129        NaN         NaN   
+3             HIGH_TURNOVER     FAIL   0.70  0.7129        NaN         NaN   
+4       CONCENTRATED_WEIGHT     PASS    NaN     NaN        NaN         NaN   
+5   LOW_SUB_UNIVERSE_SHARPE     FAIL  -0.24 -0.4800        NaN         NaN   
+6          SELF_CORRELATION  PENDING    NaN     NaN        NaN         NaN   
+7            DATA_DIVERSITY  PENDING    NaN     NaN        NaN         NaN   
+8          PROD_CORRELATION  PENDING    NaN     NaN        NaN         NaN   
+9             D0_SUBMISSION  PENDING    NaN     NaN        NaN         NaN   
+10       REGULAR_SUBMISSION  PENDING    NaN     NaN        NaN         NaN   
+11            LOW_2Y_SHARPE     FAIL   2.69 -0.3500        NaN         NaN   
+12          MATCHES_PYRAMID     PASS    NaN     NaN        1.0         1.6   
+13           MATCHES_THEMES  WARNING    NaN     NaN        NaN         NaN   
+
+                                      pyramids  \
+0                                          NaN   
+1                                          NaN   
+2                                          NaN   
+3                                          NaN   
+4                                          NaN   
+5                                          NaN   
+6                                          NaN   
+7                                          NaN   
+8                                          NaN   
+9                                          NaN   
+10                                         NaN   
+11                                         NaN   
+12  [{'name': 'USA/D0/PV', 'multiplier': 1.6}]   
+13                                         NaN   
+
+                                               themes  alpha_id  
+0                                                 NaN  akJ7d5mO  
+1                                                 NaN  akJ7d5mO  
+2                                                 NaN  akJ7d5mO  
+3                                                 NaN  akJ7d5mO  
+4                                                 NaN  akJ7d5mO  
+5                                                 NaN  akJ7d5mO  
+6                                                 NaN  akJ7d5mO  
+7                                                 NaN  akJ7d5mO  
+8                                                 NaN  akJ7d5mO  
+9                                                 NaN  akJ7d5mO  
+10                                                NaN  akJ7d5mO  
+11                                                NaN  akJ7d5mO  
+12                                                NaN  akJ7d5mO  
+13  [{'id': 'V4583nD', 'multiplier': 2.0, 'name': ...  akJ7d5mO  ","{'pnl': -3654126, 'bookSize': 20000000, 'longCount': 1550, 'shortCount': 1557, 'turnover': 0.7103, 'returns': -0.0407, 'drawdown': 0.5181, 'margin': -0.000115, 'fitness': -0.13, 'sharpe': -0.56, 'startDate': '2013-01-20', 'investabilityConstrained': {'pnl': -4632865, 'bookSize': 20000000, 'longCount': 1522, 'shortCount': 1591, 'turnover': 0.4711, 'returns': -0.0516, 'drawdown': 0.6065, 'margin': -0.000219, 'fitness': -0.22, 'sharpe': -0.66}, 'riskNeutralized': {'pnl': -4656928, 'bookSize': 20000000, 'longCount': 1550, 'shortCount': 1557, 'turnover': 0.7103, 'returns': -0.0519, 'drawdown': 0.4997, 'margin': -0.000146, 'fitness': -0.6, 'sharpe': -2.21}}","{'pnl': -605665, 'bookSize': 20000000, 'longCount': 1550, 'shortCount': 1592, 'turnover': 0.7368, 'returns': -0.0601, 'drawdown': 0.0916, 'margin': -0.000163, 'fitness': -0.16, 'sharpe': -0.55, 'startDate': '2022-01-20', 'investabilityConstrained': {'pnl': -931458, 'bookSize': 20000000, 'longCount': 1544, 'shortCount': 1607, 'turnover': 0.5063, 'returns': -0.0924, 'drawdown': 0.1175, 'margin': -0.000365, 'fitness': -0.32, 'sharpe': -0.75}, 'riskNeutralized': {'pnl': -754330, 'bookSize': 20000000, 'longCount': 1550, 'shortCount': 1592, 'turnover': 0.7368, 'returns': -0.0748, 'drawdown': 0.082, 'margin': -0.000203, 'fitness': -0.82, 'sharpe': -2.58}}"
+3,blpjL8QZ,"{'type': 'REGULAR', 'settings': {'instrumentType': 'EQUITY', 'region': 'USA', 'universe': 'TOP3000', 'delay': 0, 'decay': 0, 'neutralization': 'INDUSTRY', 'truncation': 0.08, 'pasteurization': 'OFF', 'testPeriod': 'P1Y', 'unitHandling': 'VERIFY', 'nanHandling': 'OFF', 'maxTrade': 'OFF', 'language': 'FASTEXPR', 'visualization': False}, 'regular': 'Rank(Ts_Rank(close, 10))'}","       pnl  bookSize  longCount  shortCount  turnover  returns  drawdown  \
+0 -4299912  20000000       1550        1561    0.7129  -0.0431    0.5181   
+
+     margin  sharpe  fitness   startDate  \
+0 -0.000121   -0.56    -0.14  2013-01-20   
+
+                            investabilityConstrained  \
+0  {'pnl': -5578474, 'bookSize': 20000000, 'longC...   
+
+                                     riskNeutralized  alpha_id  
+0  {'pnl': -5423101, 'bookSize': 20000000, 'longC...  blpjL8QZ  ",,,"                       name   result  limit   value  effective  multiplier  \
+0                LOW_SHARPE     FAIL   2.69 -0.5600        NaN         NaN   
+1               LOW_FITNESS     FAIL   1.50 -0.1400        NaN         NaN   
+2              LOW_TURNOVER     PASS   0.01  0.7129        NaN         NaN   
+3             HIGH_TURNOVER     FAIL   0.70  0.7129        NaN         NaN   
+4       CONCENTRATED_WEIGHT     PASS    NaN     NaN        NaN         NaN   
+5   LOW_SUB_UNIVERSE_SHARPE     FAIL  -0.24 -0.4800        NaN         NaN   
+6          SELF_CORRELATION  PENDING    NaN     NaN        NaN         NaN   
+7            DATA_DIVERSITY  PENDING    NaN     NaN        NaN         NaN   
+8          PROD_CORRELATION  PENDING    NaN     NaN        NaN         NaN   
+9             D0_SUBMISSION  PENDING    NaN     NaN        NaN         NaN   
+10       REGULAR_SUBMISSION  PENDING    NaN     NaN        NaN         NaN   
+11            LOW_2Y_SHARPE     FAIL   2.69 -0.3500        NaN         NaN   
+12          MATCHES_PYRAMID     PASS    NaN     NaN        1.0         1.6   
+13           MATCHES_THEMES  WARNING    NaN     NaN        NaN         NaN   
+
+                                      pyramids  \
+0                                          NaN   
+1                                          NaN   
+2                                          NaN   
+3                                          NaN   
+4                                          NaN   
+5                                          NaN   
+6                                          NaN   
+7                                          NaN   
+8                                          NaN   
+9                                          NaN   
+10                                         NaN   
+11                                         NaN   
+12  [{'name': 'USA/D0/PV', 'multiplier': 1.6}]   
+13                                         NaN   
+
+                                               themes  alpha_id  
+0                                                 NaN  blpjL8QZ  
+1                                                 NaN  blpjL8QZ  
+2                                                 NaN  blpjL8QZ  
+3                                                 NaN  blpjL8QZ  
+4                                                 NaN  blpjL8QZ  
+5                                                 NaN  blpjL8QZ  
+6                                                 NaN  blpjL8QZ  
+7                                                 NaN  blpjL8QZ  
+8                                                 NaN  blpjL8QZ  
+9                                                 NaN  blpjL8QZ  
+10                                                NaN  blpjL8QZ  
+11                                                NaN  blpjL8QZ  
+12                                                NaN  blpjL8QZ  
+13  [{'id': 'V4583nD', 'multiplier': 2.0, 'name': ...  blpjL8QZ  ","{'pnl': -3654126, 'bookSize': 20000000, 'longCount': 1550, 'shortCount': 1557, 'turnover': 0.7103, 'returns': -0.0407, 'drawdown': 0.5181, 'margin': -0.000115, 'fitness': -0.13, 'sharpe': -0.56, 'startDate': '2013-01-20', 'investabilityConstrained': {'pnl': -4632865, 'bookSize': 20000000, 'longCount': 1522, 'shortCount': 1591, 'turnover': 0.4711, 'returns': -0.0516, 'drawdown': 0.6065, 'margin': -0.000219, 'fitness': -0.22, 'sharpe': -0.66}, 'riskNeutralized': {'pnl': -4656928, 'bookSize': 20000000, 'longCount': 1550, 'shortCount': 1557, 'turnover': 0.7103, 'returns': -0.0519, 'drawdown': 0.4997, 'margin': -0.000146, 'fitness': -0.6, 'sharpe': -2.21}}","{'pnl': -605665, 'bookSize': 20000000, 'longCount': 1550, 'shortCount': 1592, 'turnover': 0.7368, 'returns': -0.0601, 'drawdown': 0.0916, 'margin': -0.000163, 'fitness': -0.16, 'sharpe': -0.55, 'startDate': '2022-01-20', 'investabilityConstrained': {'pnl': -931458, 'bookSize': 20000000, 'longCount': 1544, 'shortCount': 1607, 'turnover': 0.5063, 'returns': -0.0924, 'drawdown': 0.1175, 'margin': -0.000365, 'fitness': -0.32, 'sharpe': -0.75}, 'riskNeutralized': {'pnl': -754330, 'bookSize': 20000000, 'longCount': 1550, 'shortCount': 1592, 'turnover': 0.7368, 'returns': -0.0748, 'drawdown': 0.082, 'margin': -0.000203, 'fitness': -0.82, 'sharpe': -2.58}}"
